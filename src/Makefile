@@ -32,7 +32,7 @@ gettext:
 	#mkdir -p locale/de/
 	#mkdir -p locale/fr/
 
-poupdate:
+updatepo:
 	# update translation per-language
 	sphinx-intl update -p locale/pot -l it
 	#sphinx-intl update -p locale/pot -l es
