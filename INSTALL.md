@@ -1,7 +1,7 @@
 INSTALL
 =======
 
-To edit a doc you need only a text editor. Browse `src/` directory, open .rst files. The `index.rst` collect the references to other available files (w/o extension). The `chapter1.rst` and `chapter2.rst` are esamples.
+To edit a doc you need only a text editor. Browse `src/` directory, open .rst files. Take a look at `index.rst`, you'll find refs to `chapter1.rst` and `chapter2.rst`, some basic examples included.
 
 Basic requirements
 ------------------
@@ -15,7 +15,7 @@ To build HTML output with RTD theme:
 
 - ReadTheDocs theme (python3-sphinx_rtd_theme)
 
-To build pdf you need Latex (texlive) and many small packages.
+To build pdf you need Latex (texlive) and many small packages. Check the output to know what is required.
 
 To localize docs, grab the gettext utilities (gettext) and install the sphinx tools for the need (sphinx-intl).
 
