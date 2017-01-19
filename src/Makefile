@@ -35,9 +35,9 @@ gettext:
 updatepo:
 	# update translation per-language
 	sphinx-intl update -p locale/pot -l it
-	#sphinx-intl update -p locale/pot -l es
-	#sphinx-intl update -p locale/pot -l de
-	#sphinx-intl update -p locale/pot -l fr
+	sphinx-intl update -p locale/pot -l es
+	sphinx-intl update -p locale/pot -l de
+	sphinx-intl update -p locale/pot -l fr
 
 lang_it:
 	make -e SPHINXOPTS="-D language='it'" html
