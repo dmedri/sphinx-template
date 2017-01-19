@@ -32,7 +32,7 @@ make all
 The resulting output will be placed under `src/_build` directory.
 
 Translations
-^^^^^^^^^^^^
+------------
 
 If you know gettext, you know how it works. The first step is take your docs with .rst extension, extract labels and write basic templates in `src/locale/pot`. Run:
 ```
