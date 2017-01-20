@@ -1,0 +1,307 @@
+# sphinx-template
+# Copyright (C) 2017, Daniele Medri
+# This file is distributed under the same license as the Sphinx-template
+# package.
+# Daniele Medri <dmedri@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-template 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-20 20:30+0100\n"
+"PO-Revision-Date: 2017-01-20 20:48+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: ../../section1.rst:2
+msgid "ReStructuredText"
+msgstr "ReStructuredText"
+
+#: ../../section1.rst:5
+msgid "Headings"
+msgstr "Intestazioni"
+
+#: ../../section1.rst:7
+msgid "With headings we define the basic structure of a document::"
+msgstr "Con le intestazioni definiamo la struttura base di un documento::"
+
+#: ../../section1.rst:21
+msgid "Two simple rules:"
+msgstr "Due semplici regole:"
+
+#: ../../section1.rst:23
+msgid "use at least as many characters as the length of the title;"
+msgstr "usare tanti caratteri per coprire la lunghezza del titolo;"
+
+#: ../../section1.rst:24
+msgid "characters usage is quite flexible but be consistent."
+msgstr "l'uso dei caratteri è abbastanza flessibile ma siate consistenti."
+
+#: ../../section1.rst:27
+msgid "Text markup"
+msgstr "Marcatore di testo"
+
+#: ../../section1.rst:29
+msgid "Inline markup:"
+msgstr "Marcatori inline:"
+
+#: ../../section1.rst:31
+msgid "*italic*;"
+msgstr "*corsivo*;"
+
+#: ../../section1.rst:32
+msgid "**bold**;"
+msgstr "**grassetto**;"
+
+#: ../../section1.rst:33
+msgid "``code sample``;"
+msgstr "``codice di esempio``;"
+
+#: ../../section1.rst:36
+msgid "List items"
+msgstr "Elenco elementi"
+
+#: ../../section1.rst:38
+msgid "This is an unordered list:"
+msgstr "Questa è una lista non ordinata:"
+
+#: ../../section1.rst:40 ../../section1.rst:46 ../../section1.rst:52
+msgid "apple"
+msgstr "mela"
+
+#: ../../section1.rst:41 ../../section1.rst:47 ../../section1.rst:55
+msgid "pear"
+msgstr "pera"
+
+#: ../../section1.rst:42 ../../section1.rst:48
+msgid "date palm"
+msgstr "dattero"
+
+#: ../../section1.rst:44
+msgid "This is an ordered list:"
+msgstr "Questa è una lista ordinata:"
+
+#: ../../section1.rst:50
+msgid "This is a definitions list:"
+msgstr "Questa è una lista di definizioni:"
+
+#: ../../section1.rst:53
+msgid "An apple is a fruit."
+msgstr "Una mela è un frutto."
+
+#: ../../section1.rst:55
+msgid "A pear is a fruit."
+msgstr "Una pera è un frutto."
+
+#: ../../section1.rst:57
+msgid "This is a fields list:"
+msgstr "Questo è una lista campi:"
+
+#: ../../section1.rst:59 ../../section1.rst:60
+msgid "This is a field."
+msgstr "Questo è un campo."
+
+#: ../../section1.rst:62
+msgid "A command-line options list:"
+msgstr "Una lista di comandi:"
+
+#: ../../section1.rst:64
+msgid "option \"a\""
+msgstr "opzione \"a\""
+
+#: ../../section1.rst:65
+msgid "option \"b\" on a file"
+msgstr "opzione \"b\" su un file"
+
+#: ../../section1.rst:70
+msgid "Code"
+msgstr "Codice"
+
+#: ../../section1.rst:72
+msgid "The easiest way to show code is using two colon marks::"
+msgstr ""
+"La soluzione più semplice per mostrare il codice è usare una coppia di "
+"due punti::"
+
+#: ../../section1.rst:77
+msgid "This is an example of ``code-block`` for XML:"
+msgstr "Questo è un esempio di ``code-block`` per XML:"
+
+#: ../../section1.rst:99
+msgid "This is an example of ``code-block`` for Python:"
+msgstr "Questo è un esempio di ``code-block`` per Python:"
+
+#: ../../section1.rst:106
+msgid "This is an example of ``literalinclude`` with an external file:"
+msgstr "Questo è un esempio di ``literalinclude`` con un file esterno:"
+
+#: ../../section1.rst:113
+msgid "Images"
+msgstr "Immagini"
+
+#: ../../section1.rst:115
+msgid "This is a scaled image, center aligned, with a link:"
+msgstr ""
+"Questa è un'immagine ridimensionata, allineata al centro, con un "
+"collegamento:"
+
+#: ../../section1.rst:123
+msgid "This is a figure, with a caption, a number and a reference:"
+msgstr ""
+"Questa è una figura, con una didascalia, un numero e un riferimento:"
+
+#: ../../section1.rst:129
+msgid "This is a caption for a figure."
+msgstr "Questa è una didascalia per un'immagine."
+
+#: ../../section1.rst:133
+msgid "Maths and equations"
+msgstr "Matematica e equazioni"
+
+#: ../../section1.rst:135
+msgid ""
+"Math language could be used inline (see. :math:`\\alpha > \\beta`) or "
+"not (see. LaTeX syntax):"
+msgstr ""
+"Il linguaggio matematico può essere utilizzato in linea (vedi. :math:`"
+"\alpha > \\beta`) o meno (vedi. sintassi LaTeX):"
+
+#: ../../section1.rst:140 ../../section1.rst:150
+msgid "For example:"
+msgstr "Per esempio:"
+
+#: ../../section1.rst:156
+msgid "Hyperlinks"
+msgstr "Collegamenti ipertestuali"
+
+#: ../../section1.rst:158
+msgid "Internal hyperlinks."
+msgstr "Collegamenti interni."
+
+#: ../../section1.rst:160
+msgid "a link to a section (see. :ref: `my-reference-code`)."
+msgstr "un collegamento ad una sezione (vedi. :ref: `my-reference-code`)."
+
+#: ../../section1.rst:161
+msgid "a link to a figure (see. :ref: `myfigureref`)."
+msgstr "un collegamento ad una figura (see. :ref: `myfigureref`)."
+
+#: ../../section1.rst:163
+msgid "External hyperlinks."
+msgstr "Collegamenti esterni."
+
+#: ../../section1.rst:165
+msgid "a link to a `website <http://www.google.com>`_."
+msgstr "un collegamento ad un `sito web <http://www.google.com>`_."
+
+#: ../../section1.rst:168
+msgid "Console commands"
+msgstr "Comandi console"
+
+#: ../../section1.rst:170
+msgid "Examples:"
+msgstr "Esempi:"
+
+#: ../../section1.rst:172
+msgid ":command:`rm -fr ~/garbage/`;"
+msgstr ":command:`rm -fr ~/garbage/`;"
+
+#: ../../section1.rst:173
+msgid ":command:`sudo dnf search sphinx | grep template | more`."
+msgstr ":command:`sudo dnf search sphinx | grep template | more`."
+
+#: ../../section1.rst:176 ../../section1.rst:218
+msgid "Footnotes"
+msgstr "Note"
+
+#: ../../section1.rst:178
+msgid "This is a footnote [#f1]_ and this is the second one [#f2]_."
+msgstr "Questa è una nota [#f1]_ e questa è la seconda nota [#f2]_."
+
+#: ../../section1.rst:181
+msgid "Epigraph"
+msgstr "Epigrafe"
+
+#: ../../section1.rst:184
+msgid "Walk straigth ahead, take the best with you."
+msgstr "Cammina dritto, portati il meglio con te."
+
+#: ../../section1.rst:185
+msgid "-- |dm|"
+msgstr "-- |dm|"
+
+#: ../../section1.rst:188
+msgid "Blocks"
+msgstr "Blocchi"
+
+#: ../../section1.rst:191
+msgid "This is an error message."
+msgstr "Questo è un messaggio di errore."
+
+#: ../../section1.rst:194
+msgid "This is a hint."
+msgstr "Questo è un suggerimento."
+
+#: ../../section1.rst:197
+msgid "This is a note."
+msgstr "Questa è una nota."
+
+#: ../../section1.rst:200
+msgid "This is a warning."
+msgstr "Questo è un avvertimento."
+
+#: ../../includes/inclusion.txt:1
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae "
+"mollis risus. Pellentesque ante elit, condimentum vel erat at, facilisis "
+"laoreet leo. Nullam at porttitor est. Donec ornare egestas diam id "
+"consequat. Suspendisse ipsum libero, pulvinar a semper ut, venenatis non "
+"est. Curabitur fermentum lorem ac arcu dignissim faucibus. Vestibulum id "
+"lorem eu eros auctor gravida ultrices quis sem. Nunc aliquet rhoncus "
+"erat, sed tristique ligula commodo nec. Fusce viverra vestibulum erat, "
+"vitae gravida est commodo id. Pellentesque ullamcorper ultrices magna "
+"efficitur condimentum. Vestibulum et molestie lectus."
+msgstr ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae "
+"mollis risus. Pellentesque ante elit, condimentum vel erat at, facilisis "
+"laoreet leo. Nullam at porttitor est. Donec ornare egestas diam id "
+"consequat. Suspendisse ipsum libero, pulvinar a semper ut, venenatis non "
+"est. Curabitur fermentum lorem ac arcu dignissim faucibus. Vestibulum id "
+"lorem eu eros auctor gravida ultrices quis sem. Nunc aliquet rhoncus "
+"erat, sed tristique ligula commodo nec. Fusce viverra vestibulum erat, "
+"vitae gravida est commodo id. Pellentesque ullamcorper ultrices magna "
+"efficitur condimentum. Vestibulum et molestie lectus."
+
+#: ../../section1.rst:205
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: ../../section1.rst
+msgid "A sidebar"
+msgstr "Una barra laterale"
+
+#: ../../section1.rst:209
+msgid "Sidebar subtitle"
+msgstr "Sottotitolo"
+
+#: ../../section1.rst:211
+msgid ""
+"A sidebar can help you for notes on a side of the page. It render well "
+"in html but even in latex/pdf."
+msgstr ""
+"Una barra laterale può aiutarvi per note su un lato della pagina. Appare "
+"bene in html ma anche in latex/pdf."
+
+#: ../../section1.rst:219
+msgid "The first footnote."
+msgstr "La prima nota."
+
+#: ../../section1.rst:220
+msgid "The second footnote."
+msgstr "La seconda nota."

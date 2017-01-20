@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = Example
+SPHINXPROJ    = sphinx-template
 SOURCEDIR     = .
 BUILDDIR      = _build
 
@@ -26,25 +26,26 @@ help:
 
 gettext:
 	sphinx-build -b gettext . locale/pot/
-	# needed directories for locales
-	#mkdir -p locale/it/
-	#mkdir -p locale/es/
-	#mkdir -p locale/de/
-	#mkdir -p locale/fr/
 
 updatepo:
 	# update translation per-language
 	sphinx-intl update -p locale/pot -l it
-	sphinx-intl update -p locale/pot -l es
-	sphinx-intl update -p locale/pot -l de
-	sphinx-intl update -p locale/pot -l fr
+	#sphinx-intl update -p locale/pot -l es
+	#sphinx-intl update -p locale/pot -l de
+	#sphinx-intl update -p locale/pot -l fr
 
 lang_it:
 	make -e SPHINXOPTS="-D language='it'" html
-	make -e SPHINXOPTS="-D language='it'" epub
-	make -e SPHINXOPTS="-D language='it'" latexpdf
+	#make -e SPHINXOPTS="-D language='it'" epub
+	#make -e SPHINXOPTS="-D language='it'" latexpdf
+	#make -e SPHINXOPTS="-D language='it'" latexpdf
+	#cd _build/latex && \
+	#rm *.{sty,png,cls,ist,ilg,idx,aux,out,tex,ind,toc,log} Makefile
 
 all:
 	make html
-	make epub
-	make latexpdf
+	#make epub
+	#make latexpdf
+	#cd _build/latex && \
+	#rm *.{sty,png,cls,ist,ilg,idx,aux,out,tex,ind,toc,log} Makefile
+

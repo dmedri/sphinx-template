@@ -1,0 +1,52 @@
+# sphinx-template
+# Copyright (C) 2017, Daniele Medri
+# This file is distributed under the same license as the Sphinx-template
+# package.
+# Daniele Medri <dmedri@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx-template 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-20 20:30+0100\n"
+"PO-Revision-Date: 2017-01-20 20:34+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: ../../intro.rst:2
+msgid "Sphinx-template"
+msgstr "Sphinx-template"
+
+#: ../../intro.rst:4
+msgid "This template work on Sphinx document system."
+msgstr "Questo modello funziona sul sistema di documentazione Sphinx."
+
+#: ../../intro.rst:6
+msgid ""
+"The content is written using text files with the ReStructuredText syntax. A "
+"quickstart intro if you are reading the raw files, an example output if "
+"processed and exported in available formats (HTML, PDF or ePub). For more info, "
+"clic the following `link <http://www.sphinx-doc.org/en/latest/markup/>`_ for "
+"online docs;"
+msgstr ""
+"Il contenuto è scritto usando file di testo con la sintassi ReStructuredText. "
+"Un'introduzione veloce se leggete i file raw, un output di esempio se "
+"processato ed esportato nei formati disponibili (HTML, PDF o ePub). Per "
+"maggiori informazioni, fate clic sul seguente `link <http://www.sphinx-doc.org/"
+"en/latest/markup/>`_ per la documentazione online;"
+
+#: ../../intro.rst:8
+msgid "We provide specific settings to export docs in HTML, PDF (LaTeX) and ePub."
+msgstr ""
+"Sono offerte impostazioni specifiche per esportare documenti in HTML, PDF "
+"(LaTeX) e ePub."
+
+#: ../../intro.rst:10
+msgid "Everything is ready for gettext, to help translators in their work."
+msgstr "Tutto è pronto per gettext, per aiutare i traduttori nel loro lavoro."
